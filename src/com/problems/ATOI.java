@@ -11,7 +11,7 @@ public class ATOI {
         if(s.equals("-13+8")){
             return -13;
         }
-        //Trim()
+        //Trim()    
         s=s.trim();
         long ans=0;
         int n=s.length();
@@ -20,7 +20,7 @@ public class ATOI {
         boolean isZ=false;
         for(int i=0;i<n;i++){
             if(s.charAt(i)=='0'){
-                isZ=true; 
+                isZ=true;      
             }
             if(s.charAt(i)=='-' && ans==0 && !isN){
                 if(isZ){
