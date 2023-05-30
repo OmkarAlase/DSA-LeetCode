@@ -19,7 +19,7 @@ public class ATOI {
         boolean isZ=false;
         for(int i=0;i<n;i++){
             if(s.charAt(i)=='0'){
-                isZ=true;
+                isZ=true; 
             }
             if(s.charAt(i)=='-' && ans==0 && !isN){
                 if(isZ){
