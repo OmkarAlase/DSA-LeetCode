@@ -11,6 +11,7 @@ public class ATOI {
         if(s.equals("-13+8")){
             return -13;
         }
+        //Trim()
         s=s.trim();
         long ans=0;
         int n=s.length();
